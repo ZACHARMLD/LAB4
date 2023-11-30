@@ -6,16 +6,6 @@ using namespace std;
 double sum(double x);
 class fuk;
 
-int main()
-{
-	fuk test;	//определяем класс
-	string s;	
-	double y;	
-	double x;
-  	test.sum(x);
-  	test.write(y);
-	test.read(s);		//ВЫЗОВ ФУНКЦИЙ	ИЗ КЛАССА
-}
 
 
 class fuk 
@@ -85,3 +75,13 @@ double sum(double x)	//сама функция обработки
 	}
 };
 
+int main()
+{
+	fuk test;	//определяем класс
+	string s;	
+	double y;	
+	double x;
+  	test.sum(x);
+  	test.write(y);
+	test.read(s);		//ВЫЗОВ ФУНКЦИЙ	ИЗ КЛАССА
+}
